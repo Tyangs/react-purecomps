@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import React, { ForwardedRef, forwardRef,ReactNode } from 'react';
 
 type Tags = keyof JSX.IntrinsicElements;
 
@@ -7,9 +7,12 @@ type ComponentProps<T extends Tags> = Omit<JSX.IntrinsicElements[T], 'children'>
 };
 
 function createComponent<T extends Tags>(type: T) {
-  return function PureComponent({ children, ...props }: ComponentProps<T>) {
-    return React.createElement(type, { ...props }, children);
-  };
+  return forwardRef(function PureComponent(
+    { children, ...props }: ComponentProps<T>,
+    ref: ForwardedRef<HTMLElement>,
+  ) {
+    return React.createElement(type, { ...props, ref }, children);
+  });
 }
 
 // HTML
