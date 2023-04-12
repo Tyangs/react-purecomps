@@ -1,6 +1,6 @@
 {
-  "name": "react-pureui",
-  "version": "0.0.1",
+  "name": "react-purecomps",
+  "version": "0.0.2",
   "description": "The purest React component library.",
   "author": "tyangs",
   "license": "MIT",
@@ -16,6 +16,13 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
+ "repository": {
+    "type": "git",
+    "url": "https://github.com/Tyangs/react-pureui"
+  },
+  "bugs": {
+    "url": "https://github.com/Tyangs/react-pureui/issues"
+  },
   "peerDependencies": {
     "react": "^18.2.0"
   },
