@@ -85,7 +85,8 @@ export const Meter = createComponent('meter');
 export const Nav = createComponent('nav');
 export const Noindex = createComponent('noindex');
 export const Noscript = createComponent('noscript');
-export const Object = createComponent('object');
+// NOTICE: conflicting with the constructor name 'Object', rename to PObject
+export const PObject = createComponent('object');
 export const Ol = createComponent('ol');
 export const Optgroup = createComponent('optgroup');
 export const Option = createComponent('option');
