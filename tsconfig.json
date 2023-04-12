@@ -3,7 +3,7 @@
     "target": "es2015",
     "module": "ESNext",
     "jsx": "react-jsx",
-    "jsxImportSource": "preact",
+    "jsxImportSource": "react",
     "strict": true,
     "moduleResolution": "node",
     "esModuleInterop": true,

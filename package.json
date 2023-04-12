@@ -7,8 +7,8 @@
   "type": "module",
   "scripts": {
     "build": "rollup -c",
-    "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx,json}\"",
-    "format": "yarn lint --fix & prettier --write \"{**/*,*}.{js,ts,jsx,tsx,json}\""
+    "lint": "eslint '{**/*,*}.{js,ts,jsx,tsx,json}'",
+    "format": "yarn lint --fix & prettier --write '{**/*,*}.{js,ts,jsx,tsx,json}'"
   },
   "main": "dist/cjs/index.js",
   "moudle": "dist/esm/index.js",
@@ -24,6 +24,7 @@
     "@rollup/plugin-node-resolve": "^15.0.2",
     "@rollup/plugin-typescript": "^11.1.0",
     "@types/react": "^18.0.34",
+    "@types/react-dom": "^18.0.11",
     "@typescript-eslint/eslint-plugin": "^5.58.0",
     "@typescript-eslint/parser": "^5.58.0",
     "commitizen": "^4.3.0",
