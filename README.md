@@ -28,20 +28,20 @@ import React, {useRef, useState} from 'react';
 import {Button, Div, H1, Input} from 'react-purecomps';
 
 const Usage = () => {
-	const [value, setValue] = useState('');
-	const inputRef = useRef<HTMLInputElement>(null);
+  const [value, setValue] = useState('');
+  const inputRef = useRef<HTMLInputElement>(null);
 
-	return (
-		<Div>
-			<H1>Value: {value}</H1>
-			<Input ref={inputRef} />
-			<Button
-				onClick={() => setValue(inputRef.current?.value || 'No value')}
-			>
-				Update value
-			</Button>
-		</Div>
-	);
+  return (
+    <Div>
+      <H1>Value: {value}</H1>
+      <Input ref={inputRef} />
+      <Button
+        onClick={() => setValue(inputRef.current?.value || 'No value')}
+      >
+        Update value
+      </Button>
+    </Div>
+  );
 };
 ```
 
