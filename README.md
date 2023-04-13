@@ -11,7 +11,7 @@
 
 ## Installation
 
-Use the package manager [npm](https://www.npmjs.com/package/react-purecomps) or [yarn](https://yarnpkg.com/package/react-purecomps) to install `react-purecomps`.
+Use the package manager `npm` or `yarn` to install `react-purecomps`.
 
 ```bash
 npm install react-purecomps
