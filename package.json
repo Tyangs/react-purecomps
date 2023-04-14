@@ -1,6 +1,6 @@
 {
   "name": "react-purecomps",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "The purest React component library.",
   "author": "tyangs",
   "license": "MIT",
@@ -15,12 +15,13 @@
   "module": "dist/index.esm.js",
   "browser": "dist/index.umd.js",
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Tyangs/react-purecomps"
+    "url": "https://github.com/Tyangs/react-purecomps.git"
   },
   "bugs": {
     "url": "https://github.com/Tyangs/react-purecomps/issues"
