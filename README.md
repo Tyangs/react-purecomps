@@ -50,7 +50,3 @@ If you need to modify the component styles, you can directly add style props to 
 ## License
 
 [MIT](https://github.com/Tyangs/react-purecomps/blob/main/LICENSE)
-
-## Sponsors
-
-<a href="https://www.buymeacoffee.com/tyangs" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
